@@ -1,3 +1,44 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social li:before {
+	content: "";
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+	border-radius: 50%;
+	color: #fff;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #8F91CC;
+	-moz-box-shadow: inset 0px 0px 0px 40px #8F91CC;
+	-ms-box-shadow: inset 0px 0px 0px 40px #8F91CC;
+	-o-box-shadow: inset 0px 0px 0px 40px #8F91CC;
+	box-shadow: inset 0px 0px 0px 40px #8F91CC;
+}
+	
+.social li a:hover,
+.social li a:active,
+.social li a:focus{
+	color: #8F91CC;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 3px #8F91CC;
+	-moz-box-shadow: inset 0px 0px 0px 3px #8F91CC;
+	-ms-box-shadow: inset 0px 0px 0px 3px #8F91CC;
+	-o-box-shadow: inset 0px 0px 0px 3px #8F91CC;
+	box-shadow: inset 0px 0px 0px 3px #8F91CC;
