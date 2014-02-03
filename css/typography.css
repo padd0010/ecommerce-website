@@ -8,7 +8,7 @@
 	Light Blue: #C9EAF5
 	Medium Blue: #1B6BA1
 	Light Grey: #999
-	Medium Grey: #666
+	Medium Grey: #1B6BA1
 */
 
 html{
@@ -17,6 +17,14 @@ html{
 
 ::selection {
 	background-color: #C9EAF5;
+}
+
+.ease-all{
+	-webkit-transition: all 450ms ease-in-out;
+	-moz-transition: all 450ms ease-in-out;
+	-ms-transition: all 450ms ease-in-out;
+	-o-transition: all 450ms ease-in-out;
+	transition: all 450ms ease-in-out;
 }
 
 a,
@@ -34,7 +42,6 @@ a:focus,
 a:active {
 	color: #1B6BA1;
 	border-bottom: 0.1em solid #1B6BA1;
-	transition: all 100ms ease-in-out;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
@@ -103,7 +110,7 @@ small, .milli {
 }
 
 p {
-	color: #666;
+	color: #1B6BA1;
 }
 
 ul {
@@ -112,7 +119,7 @@ ul {
 
 ul li {
 	position: relative;
-	color: #666;
+	color: #1B6BA1;
 }
 
 ul li:before {
@@ -127,7 +134,7 @@ ol li{
 }
 
 ol li span{
-	color: #666;
+	color: #1B6BA1;
 }
 
 dt {
@@ -135,7 +142,7 @@ dt {
 }
 
 dd {
-	color: #666;
+	color: #1B6BA1;
 }
 
 blockquote p{
@@ -195,7 +202,7 @@ th {
 }
 
 td {
-	color: #666;	
+	color: #1B6BA1;	
 }
 
 tr:hover {
@@ -203,5 +210,5 @@ tr:hover {
 }
 
 caption {
-	color: #666;
+	color: #1B6BA1;
 }
