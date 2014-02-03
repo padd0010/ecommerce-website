@@ -21,3 +21,10 @@
 	background-color: #1B6BA1;
 	background-image: linear-gradient(to bottom, #1B6BA1, #094980);
 }
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: #F8574D;
+	background-image: none;
+}	
