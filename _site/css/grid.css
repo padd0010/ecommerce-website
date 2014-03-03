@@ -3,6 +3,7 @@
 
 .grid {
     overflow: hidden;
+	clear: both;
 }
 
 .gutter {
@@ -22,7 +23,6 @@
 .unit-s-1-2 {
 	width: 50%
 }
-
 
 @media only screen and (min-width: 38em) {
 	
@@ -47,6 +47,5 @@
 	
 	.unit-2-3 {
     width: 66.6667%;
-	}
-	
+	}	
 }
