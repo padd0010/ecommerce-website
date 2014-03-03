@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* 
+	HEX and RGB Values
+	Red: #E8574D
+	Violet: #8F91CC
+	Light Blue: #C9EAF5
+	Medium Blue: #1B6BA1
+	Light Grey: #999
+	Medium Grey: #1B6BA1
+*/
+
 nav {
 	margin-bottom: 1rem;
 }
@@ -63,7 +73,7 @@ nav a:active {
 }
 
 nav .selected {
-	color:  #C9EAF5;
+	color: #8F91CC;
 }
 
 @media only screen and (min-width: 18.1875em){
