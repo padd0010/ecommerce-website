@@ -216,3 +216,7 @@ tr:hover {
 caption {
 	color: #1B6BA1;
 }
+
+.lower {
+	text-transform: none;
+}
