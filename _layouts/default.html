@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<title>Ecommerce Website</title>
+	<title>{{page.title}} · Ecommerce Website</title>
+	<meta name="description" content="{{page.meta}}">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -32,14 +33,20 @@
 		<nav>
 			
 			<ul>
-				<li><a href="{{site.baseurl}}/">Home</a></li>
-				<li><a href="{{site.baseurl}}/about/">About</a></li>
-				<li><a href="{{site.baseurl}}/products/">Products</a></li>
+				<li> <a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a></li>
+				<li><a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a></li>
+				<li><a class="{% if page.url == '/products/' %}current{% endif%}" href="{{site.baseurl}}/products/">Products</a></li>
 			</ul>
 		
 		</nav>
 		
 	</header>
+	
+	{% if page.showbanner %}
+	<div class="banner">
+		<h2 class="yotta">{{page.bannertext}}</h2>
+	</div>
+	{% endif %}
 
 {{content}}
 
