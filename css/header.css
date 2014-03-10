@@ -19,7 +19,6 @@ nav {
 	content: "";
 }
 
-
 @media only screen and (min-width: 100em){
 	html{
 		font-size: 1.5em;
@@ -72,10 +71,6 @@ nav a:active {
 	color: #fff;
 }
 
-nav .selected {
-	color: #8F91CC;
-}
-
 @media only screen and (min-width: 18.1875em){
 	nav li {
 		width: 30%;
@@ -115,4 +110,21 @@ nav .selected {
 	nav li {
 		width: auto;
 	}
+}
+
+.current {
+	background-color: #8F91CC;
+}
+
+.banner {
+	background: #8F91CC url("../images/banner.jpg") no-repeat center center;
+	padding: 3rem 1rem 1rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+	color: #fff;
+	clear: both;
+}
+
+.banner h2 {
+	color: #fff;
 }
