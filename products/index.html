@@ -1,0 +1,45 @@
+---
+layout: default
+title: Products
+meta: Vela Vida Products
+---
+
+<div class="grid">
+	
+	<div>
+		
+		<h2 class="center yotta">All Products</h2>
+
+		<dl>
+			{% for filter in site.pages %}
+		
+				{% if filter.category == 'filter' %}
+				
+				<div class="unit gutter unit-s-1 unit-m-1-2">
+					<dt><a href="{{site.baseurl}}{{filter.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{filter.image}}" alt="product"></a></dt>
+					<dd><a href="{{site.baseurl}}{{filter.url}}"><h2>{{filter.name}}</h2></a></dd>
+				</div>
+				
+				{% endif %}
+		
+			{% endfor %}
+		</dl>		
+		
+		<dl>
+			{% for products in site.pages %}
+		
+				{% if products.category == 'products' %}
+				
+				<div class="unit gutter unit-s-1 unit-m-1-2">
+					<dt><a href="{{site.baseurl}}{{products.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="product"></a></dt>
+					<dd><a href="{{site.baseurl}}{{products.url}}"><h2>{{products.name}}</h2></a></dd>
+				</div>
+				
+				{% endif %}
+		
+			{% endfor %}
+		</dl>
+		
+	</div>
+
+</div>
