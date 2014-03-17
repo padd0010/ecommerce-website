@@ -1,0 +1,33 @@
+---
+layout: default
+category: filter
+name: Accessories
+image: painted.jpg
+title: Accessories
+meta: Vela Vida Accessories Shop
+---
+
+<div class="grid">
+	
+	<div>
+		
+		<h2 class="center yotta">All Accessories</h2>
+
+		<dl>
+			{% for products in site.pages %}
+		
+				{% if products.filter == 'accessories' %}
+				
+				<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-3">
+					<dt><a href="{{site.baseurl}}{{products.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="{{products.name}}"></a></dt>
+					<dd><a href="{{site.baseurl}}{{products.url}}"><h4>{{products.name}}</h4></a></dd>
+				</div>
+				
+				{% endif %}
+		
+			{% endfor %}
+		</dl>
+		
+	</div>
+
+</div>
