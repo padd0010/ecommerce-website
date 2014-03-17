@@ -8,4 +8,6 @@ Term project for Algonquin College's course: Design for the Interactive III.
 
 © 2014 Julia Paddick
 
-Licensed under the [MIT License] (LICENSE).
+Code licensed under the [MIT License] (LICENSE).
+
+Design and imagery licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International] (http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
