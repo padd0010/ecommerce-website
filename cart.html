@@ -1,0 +1,43 @@
+---
+layout: default
+title: Shopping Cart
+meta: Vela Vida Candles
+showbanner: no
+---
+<div class="grid center">
+
+	<div class="gutter">
+		<h2 class="yotta">Shopping Cart</h2>
+		<p class="mega lower">You have 2 items in your cart:</p>
+	</div>
+	
+</div>
+
+<div>
+	{% include cart-items.html title="Candles Set" price="9.99" quantity="1" image="pillar-candles.jpg" %}
+</div>
+
+<div>	
+	{% include cart-items.html title="Laced Holder" price="19.98" quantity="2" image="silver-lace.jpg" %}
+</div>
+
+<div class="grid">
+	<div class="unit gutter unit-s-1-3 unit-m-1-3 unit-l-1-3">
+		<p></p>
+	</div>
+		
+	<div class="unit gutter unit-s-1-3 unit-m-1-3 unit-l-1-3">
+		<p></p>
+	</div>
+	
+	<div class="unit gutter unit-s-1-3 unit-m-1-3 unit-l-1-3">
+		<dl>
+			<dt class="giga">Estimated Total =</dt>
+			<dd class="tera">29.97</dd>
+		</dt>
+	</div>
+</div>
+	
+<div class="grid center">
+	<a class="btn btn-alt tera lower" href="{{site.baseurl}}/thank-you/">Checkout!</a>
+</div>
