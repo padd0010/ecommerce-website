@@ -9,6 +9,12 @@ meta: Vela Vida Products
 	<div>
 		
 		<h2 class="center yotta">All Products</h2>
+		
+		<ul class="products-nav gutter">
+			<li><a href="{{site.baseurl}}/products/filter-candles/">Candles</a></li>
+			<li><a href="{{site.baseurl}}/products/filter-accessories">Accessories</a></li>
+			<li><a class="selected" href="{{site.baseurl}}/products/">All Products</a></li>
+		</ul>
 
 		<dl>
 			{% for filter in site.pages %}
