@@ -6,6 +6,11 @@
 	clear: both;
 }
 
+.grid dd{
+	margin-left: 0px;
+	text-align: center;
+}
+
 .gutter {
     padding-left: 1em;
     padding-right: 1em;
