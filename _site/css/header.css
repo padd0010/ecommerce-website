@@ -8,14 +8,14 @@
 	Light Blue: #C9EAF5
 	Medium Blue: #1B6BA1
 	Light Grey: #999
-	Medium Grey: #1B6BA1
+	Medium Grey: #666
 */
 
 nav {
 	margin-bottom: 1rem;
 }
 
-.nav li:before {
+nav li:before {
 	content: "";
 }
 
@@ -127,4 +127,17 @@ nav a:active {
 
 .banner h2 {
 	color: #fff;
+}
+
+.products-nav {
+	text-align: center;
+}
+
+.products-nav li {
+	display: inline;
+	padding: 0 .5rem;
+}
+
+.products-nav li:before {
+	content: "";
 }
