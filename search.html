@@ -1,0 +1,31 @@
+---
+layout: default
+title: Search
+meta: Vela Vida Candles
+showbanner: no
+---
+
+<div class="grid">
+	
+	<div>
+		
+		<h2 class="center yotta">Search Results</h2>
+		
+		<dl>
+			{% for products in site.pages %}
+		
+				{% if products.filter == 'candles' %}
+				
+				<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-3">
+					<dt><a href="{{site.baseurl}}{{products.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="{{products.name}}"></a></dt>
+					<dd><a href="{{site.baseurl}}{{products.url}}"><h4>{{products.name}}</h4></a></dd>
+				</div>
+			
+				{% endif %}
+		
+			{% endfor %}
+		</dl>
+		
+	</div>
+	
+</div>
