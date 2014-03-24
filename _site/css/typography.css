@@ -8,7 +8,7 @@
 	Light Blue: #C9EAF5
 	Medium Blue: #1B6BA1
 	Light Grey: #999
-	Medium Grey: #1B6BA1
+	Medium Grey: #666
 */
 
 html{
@@ -219,4 +219,9 @@ caption {
 
 .lower {
 	text-transform: none;
+}
+
+.selected {
+	color: #1B6BA1;
+	border-bottom: 0.1em solid #1B6BA1;
 }
