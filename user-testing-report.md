@@ -4,7 +4,7 @@ User testing was conducted by Julia Paddick on March 24th, 2014 between the time
 
 - Rudy Gordon
 - Grant Jeffery
-- {Jordan Doe}
+- James Pickup
 
 ## Tasks
 
@@ -45,14 +45,13 @@ Task 3
 
 -----------------------------------------
 
-### {Jordan Doe}
+### James Pickup
 
 Task 1
 - He clicked on the links as expected
 
 Task 2
 - He clicked on the links as expected
-- Note: He clicked only on images when viewing products
 
 Task 3
 - He clicked on the links as expected
