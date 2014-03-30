@@ -12,7 +12,8 @@ User testing was conducted by Julia Paddick on March 24th, 2014 between the time
 2. Use the search bar to find a product and buy it.
 3. Return to home and find the contact info.
 
----
+-------------------------------------------------------------------------------------
+
 
 ## Individual Results & Observations
 
@@ -46,11 +47,15 @@ Task 3
 
 ### {Jordan Doe}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+Task 1
+- He clicked on the links as expected
+
+Task 2
+- He clicked on the links as expected
+- Note: He clicked only on images when viewing products
+
+Task 3
+- He clicked on the links as expected
 
 -------------------------------------------------------------------------------------
 
