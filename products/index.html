@@ -10,19 +10,19 @@ meta: Vela Vida Products
 		
 		<h2 class="center yotta">All Products</h2>
 		
-		<ul class="products-nav gutter">
+		<ul role="navigation" class="products-nav gutter">
 			<li><a href="{{site.baseurl}}/products/filter-candles/">Candles</a></li>
 			<li><a href="{{site.baseurl}}/products/filter-accessories">Accessories</a></li>
 			<li><a class="selected" href="{{site.baseurl}}/products/">All Products</a></li>
 		</ul>
-
+		
 		<dl>
 			{% for filter in site.pages %}
 		
 				{% if filter.category == 'filter' %}
 				
 				<div class="unit gutter unit-s-1 unit-m-1-2">
-					<dt><a href="{{site.baseurl}}{{filter.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{filter.image}}" alt="{{products.name}}"></a></dt>
+					<dt><a href="{{site.baseurl}}{{filter.url}}"><img class="img-flex" src="{{site.baseurl}}/images/{{filter.image}}" alt="{{filter.name}}"></a></dt>
 					<dd><a href="{{site.baseurl}}{{filter.url}}"><h2 class="zetta">{{filter.name}}</h2></a></dd>
 				</div>
 				
