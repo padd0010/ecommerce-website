@@ -44,6 +44,15 @@ a:active {
 	border-bottom: 0.1em solid #1B6BA1;
 }
 
+a:hover,
+a:active {
+	outline: none;
+}
+
+a:focus {
+	outline: #E8574D dashed 2px;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
 	margin: 0 0 1.5rem;
 }
