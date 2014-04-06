@@ -55,6 +55,7 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	font-size: .9rem;
 }
 
 nav a,
@@ -86,31 +87,32 @@ nav a:active {
 }
 
 
-@media only screen and (min-width: 25.375em){
+@media only screen and (min-width: 25.51em){
 	h1 {
 		padding-top: 1.5rem;
 	}
-}
-
-@media only screen and (min-width: 24.375em){
+	
 	nav li {
-		width: 20%;
+		width: auto;
 	}
-	
 }
 
-@media only screen and (min-width: 26.375em){
-	h1 {
-		padding: 1.5rem 0 .75rem;	
-	}
-	
+@media only screen and (min-width: 32.750em){
 	nav {
 		height: 3rem;
 	}
-	
+}
+
+@media only screen and (min-width: 45.688em){
+	nav li {
+		padding-right: 1.5rem;
+	}	
+}
+
+@media only screen and (min-width: 63.625em){	
 	nav li {
 		width: 24%;
-		font-size: .8rem;
+		padding-right: 1rem;
 	}
 }
 
@@ -129,8 +131,6 @@ nav a:active {
 	nav li {
 		width: auto;
 	}
-	
-
 }
 
 .current {
