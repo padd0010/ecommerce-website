@@ -1,0 +1,24 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Julia Paddick
+Twitter: @JuliaPaddick
+Location: Ottawa, Canada
+
+
+# THANKS
+
+Thanks to my interactive design teacher Thomas J. Bradley for teaching me a lot about code and a little about dinos. Also thanks to all of my classmates who helped with the user testing of my site!
+
+
+
+
+# SITES
+
+Last update: 2014/04/14
+Standards: HTML5, CSS3
+Components: Modernizr, Jquery
+Software: Adobe CS6, Livereload, WhatFont, Jekyll, Color Oracle, ImageOptim, SVGO-GUI
+
+
