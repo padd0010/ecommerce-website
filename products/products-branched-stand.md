@@ -2,8 +2,9 @@
 layout: products
 category: products
 name: Branched Stand
-image: stand.jpg
+image: branched-stand.jpg
 title: Branched Stand
 filter: accessories
-price: 9.99
+price: 19.99
+desc: A beautiful sculptural candle stand made of iron. 6" tall with 7 candle platforms.
 ---
